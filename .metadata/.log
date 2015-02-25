@@ -1,0 +1,91 @@
+!SESSION 2015-02-25 11:10:05.602 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\workspace\muleservices
+
+!ENTRY org.eclipse.ui 2 0 2015-02-25 11:10:07.581
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-02-25 11:10:07.581
+!MESSAGE Cannot bind to an undefined command: plug-in='org.mule.tooling.properties', id='org.mule.tooling.commands.showFlowCommand'
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-02-25 11:10:11.733
+!MESSAGE An internal error occurred during: "Updating indexes".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/core/runtime/internal/adaptor/BasicLocation
+	at org.eclipse.m2e.core.internal.index.nexus.EquinoxLocker.lock(EquinoxLocker.java:28)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1121)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1083)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:660)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.core.runtime.internal.adaptor.BasicLocation cannot be found by org.eclipse.m2e.core_1.4.0.20130601-0317
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 6 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-02-25 11:10:11.736
+!MESSAGE An internal error occurred during: "Updating indexes".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/core/runtime/internal/adaptor/BasicLocation
+	at org.eclipse.m2e.core.internal.index.nexus.EquinoxLocker.lock(EquinoxLocker.java:28)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1121)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1083)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:660)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.core.runtime.internal.adaptor.BasicLocation cannot be found by org.eclipse.m2e.core_1.4.0.20130601-0317
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 6 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-02-25 11:10:11.736
+!MESSAGE An internal error occurred during: "Updating indexes".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/core/runtime/internal/adaptor/BasicLocation
+	at org.eclipse.m2e.core.internal.index.nexus.EquinoxLocker.lock(EquinoxLocker.java:28)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1121)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1083)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:660)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.core.runtime.internal.adaptor.BasicLocation cannot be found by org.eclipse.m2e.core_1.4.0.20130601-0317
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 6 more
+
+!ENTRY org.mule.tooling.core 1 0 2015-02-25 11:10:35.064
+!MESSAGE Forcing the usage of 'current' in the schemaLocation of CMIS [version 1.1, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/cmis/1.1/mule-cmis.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/cmis/current/mule-cmis.xsd
+Forcing the usage of 'current' in the schemaLocation of Facebook [version 2.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/facebook/2.0/mule-facebook.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/facebook/current/mule-facebook.xsd
+Forcing the usage of 'current' in the schemaLocation of Magento [version 1.1, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/magento/1.1/mule-magento.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/magento/current/mule-magento.xsd
+Forcing the usage of 'current' in the schemaLocation of Mongo DB [version 2.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/mongo/2.0/mule-mongo.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/mongo/current/mule-mongo.xsd
+Forcing the usage of 'current' in the schemaLocation of Amazon S3 [version 2.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/s3/2.0/mule-s3.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/s3/current/mule-s3.xsd
+Forcing the usage of 'current' in the schemaLocation of Salesforce [version 5.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/sfdc/5.0/mule-sfdc.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/sfdc/current/mule-sfdc.xsd
+Forcing the usage of 'current' in the schemaLocation of Amazon SQS [version 1.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/sqs/1.0/mule-sqs.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/sqs/current/mule-sqs.xsd
+Forcing the usage of 'current' in the schemaLocation of Twitter [version 2.4, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/twitter/2.4/mule-twitter.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/twitter/current/mule-twitter.xsd
+
+!ENTRY org.mule.tooling.core 1 0 2015-02-25 11:10:35.064
+!MESSAGE Forcing the usage of 'current' in the schemaLocation of CMIS [version 1.1, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/cmis/1.1/mule-cmis.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/cmis/current/mule-cmis.xsd
+Forcing the usage of 'current' in the schemaLocation of Facebook [version 2.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/facebook/2.0/mule-facebook.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/facebook/current/mule-facebook.xsd
+Forcing the usage of 'current' in the schemaLocation of Magento [version 1.1, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/magento/1.1/mule-magento.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/magento/current/mule-magento.xsd
+Forcing the usage of 'current' in the schemaLocation of Mongo DB [version 2.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/mongo/2.0/mule-mongo.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/mongo/current/mule-mongo.xsd
+Forcing the usage of 'current' in the schemaLocation of Amazon S3 [version 2.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/s3/2.0/mule-s3.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/s3/current/mule-s3.xsd
+Forcing the usage of 'current' in the schemaLocation of Salesforce [version 5.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/sfdc/5.0/mule-sfdc.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/sfdc/current/mule-sfdc.xsd
+Forcing the usage of 'current' in the schemaLocation of Amazon SQS [version 1.0, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/sqs/1.0/mule-sqs.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/sqs/current/mule-sqs.xsd
+Forcing the usage of 'current' in the schemaLocation of Twitter [version 2.4, ESB version 3.4+]. Original schemaLocation is: http://www.mulesoft.org/schema/mule/twitter/2.4/mule-twitter.xsd. New schemaLocation is: http://www.mulesoft.org/schema/mule/twitter/current/mule-twitter.xsd
+
+!ENTRY org.mule.tooling.core 1 0 2015-02-25 11:10:35.297
+!MESSAGE Generating unique Studio Id = STUDIO-a4e737c8-a5d2-4181-b084-99d18883b66f-14248626352972649
+
+!ENTRY org.mule.tooling.core 1 0 2015-02-25 11:10:35.298
+!MESSAGE Generating unique Studio Id = STUDIO-a4e737c8-a5d2-4181-b084-99d18883b66f-14248626352972649
